@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar {
+    height:60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/** box 1 **/
+.nav-logo{
+   height:50px;
+   width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
+.border {
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+ /* box 2 */
+ 
+ .addr-icon{
+    display: flex;
+    font-size: 0.85rem;
+    color: #ffffff;
+    align-items: center;
+ }
+ .addr-first{
+  font-size: 0.75rem;
+  color: #cccccc;
+  margin-left: 16px;
+ }
+ .addr-sec{
+    font-size: 1rem;
+    margin-left: 4px;
+    font-weight: 700;
+ }
+
+ /* box 3 */
+ .nav-search {
+    display: flex;
+    height: 40px;
+ }
+ .nav-search:hover {
+    border: 3px solid rgb(243, 166, 65) ;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+ }
+ .search-select {
+    background-color: #f3f3f3;
+    color: #0f1111;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+    font-size: 0.85rem;
+    
+ }
+ .search-bar {
+    width: 620px;
+    font-size:1rem ;
+    color: #111;
+    padding: 7px 10px 10px 10px;
+    border: none;
+ }
+ .search-bar:hover {
+    border: none;
+ }
+
+ .search-icon {
+    background-color: rgb(243, 166, 65);
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ /* box 4 & 5 */
+ 
+.hello {
+   font-size: 0.8rem;
+}  
+.accounts {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+
+ 
+.box6{
+    display: flex;
+    
+}
+.icon {
+    font-size: 2rem;
+}
+.box6 p {
+    margin-top: 10px;
+    font-weight: 600;
+}
+.panel {
+    height: 40px;
+    background-color: #232F3E;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.all {
+    display: flex;
+}
+.all p{
+    margin-left: 4px;
+    font-weight: 700;
+}
+.links{
+    display: flex;
+    width: 60%;
+}
+.links p{
+    margin-left: 25px;
+    font-size: 0.85rem;
+}
+
+.deals{
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+/* hero section */
+.hero-sec {
+    height: 350px;
+    width: 100%;
+    background-image: url("hero.jpg");
+    background-size: cover;
+}
+.shop-sec {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#feeeca;
+    flex-wrap: wrap;
+    
+}
+.box {
+    width: 23.5%;
+    /* border: 2px solid black; */
+    height: 400px;
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 20px 0px 15px;
+    margin-bottom: 10px;
+   
+
+}
+.box-img {
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    height: 315px;
+    margin-top: 15px;
+
+}
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p {
+    margin-top: 20px;
+    color: #007185;
+    font-size: 0.85rem;
+}
+/* footer */
+.back-top {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d8cece;
+    background-color:#232F3E;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.detail {
+    height: 400px;
+    width: 100%;
+    background-color:#17202b;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    
+    font-size: 0.85rem;
+}
+.list {
+    line-height: 35px;
+    margin-top: 60px;
+}
+.foot-logo {
+    height: 90px;
+    background-color:#17202b;
+    border-top: 0.25px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    width: 120px;
+    height: 60px;
+    
+}
+.last {
+    height: 40px;
+    background-color:#232F3E;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 0.7rem;
+    line-height: 15px;
+}
+
+
